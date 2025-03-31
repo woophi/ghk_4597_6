@@ -19,7 +19,7 @@ const chips = [10_000, 36_000, 50_000, 72_000];
 export const App = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [sum, setSum] = useState<string>('2000');
+  const [sum, setSum] = useState<string>('');
   const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
 
   useEffect(() => {
